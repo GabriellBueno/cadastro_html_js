@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Medias</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="conteiner">
+
+        <header>
+            <img src="./images/1687031.png" alt="capelo e diploma">
+            <h1>Cadastro de clientes</h1>
+        </header>
+        <p></P>
+        <form id="form_cadastro">
+            <input type="text" id="contato_email" placeholder="Email para Contato" required >
+            <input type="tel" id="contato_telefone" placeholder="Telefone(opcional)" maxlength="9">
+            <button type="reset" class="clean">Limpar</button>
+            <button type="submit">Confimar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="email_cadastro">---</td>
+                    <td id="telefone_cadastro">--</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
